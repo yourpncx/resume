@@ -14,3 +14,8 @@ font-family: 'Noto Sans Thai', sans-serif;
 font-family: 'Noto Sans Thai', sans-serif;
   color: white;
 }
+.my-bg2{
+background-color: white;
+  border-style: dotted;
+  border-color: #F97AB6;
+}
