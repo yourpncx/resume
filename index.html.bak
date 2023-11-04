@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Eye's Resume</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
 
       rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
@@ -15,6 +15,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@500&amp;family=Noto+Serif+Thai&amp;display=swap"
 
       rel="stylesheet">
+    <meta name="description" content="ประวัติ ข้อมูลส่วนตัว รวมถึงประสบการณ์ต่าง ๆ ระหว่างการศึกษา">
+    <meta name="keywords" content="ประวัติ, ข้อมูล, การศึกษา, ทักษะ, ประสบการณ์">
   </head>
   <body class="my-bg">
     <div class="container">
@@ -31,13 +33,18 @@
               <span class="navbar-toggler-icon"></span> </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item my-font"> <a class="nav-link" href="#welcome">หน้าแรก</a> </li>
-                <li class="nav-item my-font"> <a class="nav-link" href="#aboutme">ข้อมูลส่วนตัว</a> </li>
-                <li class="nav-item my-font"> <a class="nav-link" href="#education">ประวัติการศึกษา</a> </li>
-                <li class="nav-item my-font"> <a class="nav-link" href="#skills">ทักษะและความสามารถ</a> </li>
+                <li class="nav-item my-font"> <a class="nav-link" href="#welcome">หน้า
+                    แรก</a> </li>
+                <li class="nav-item my-font"> <a class="nav-link" href="#aboutme">ข้อมูล
+                    ส่วนตัว</a> </li>
+                <li class="nav-item my-font"> <a class="nav-link" href="#education">ประวัติการ
+                    ศึกษา</a> </li>
+                <li class="nav-item my-font"> <a class="nav-link" href="#skills">ทักษะ
+                    และความสามารถ</a> </li>
                 <li class="nav-item my-font"> <a class="nav-link" href="#experience">ประสบการณ์</a>
                 </li>
-                <li class="nav-item my-font"> <a class="nav-link" href="#contact">ข้อมูลติดต่อ</a> </li>
+                <li class="nav-item my-font"> <a class="nav-link" href="#contact">ข้อมูล
+                    ติดต่อ</a> </li>
               </ul>
             </div>
           </div>
@@ -113,11 +120,50 @@
           <h3>ข้อมูลติดต่อ </h3>
         </div>
         <div class="row">
-          <div class="col-6"><img src="images/contact2.png" class="img-fluid" alt="contact"></div>
-          <div class="col-6"><br>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header"> <button class="accordion-button" type="button"
+
+                  data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+
+                  aria-controls="collapseOne"> Telephone Number </button> </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body"> 061-1234567, 012-4539876 </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header"> <button class="accordion-button collapsed"
+
+                  type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+
+                  aria-expanded="false" aria-controls="collapseTwo"> Email </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">phornnatcha2546@gmail.com
+                  <div class="row"><a href="mailto:phornnatcha2546@gmail.com" target="_blank"><button
+
+                        type="button" class="btn btn" style="background-color:#F97AB6">email
+                        me</button></a></div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header"> <button class="accordion-button collapsed"
+
+                  type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+
+                  aria-expanded="false" aria-controls="collapseThree"> Line </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body"> <strong>Line ID : </strong>
+                  Eye1234567890 </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <br>
+      <p class="text-center"> - Thank You - </p>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
 
 integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
