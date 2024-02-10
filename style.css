@@ -1,0 +1,21 @@
+h3{
+color: #F13596;
+font-family: 'Noto Sans Thai', sans-serif;
+}
+.my-border {
+border-style: solid;
+  border-color: #F97AB6;
+}
+p{
+font-family: 'Noto Sans Thai', sans-serif;
+  color: #545454;
+}
+.my-font{
+font-family: 'Noto Sans Thai', sans-serif;
+  color: white;
+}
+.my-bg2{
+background-color: white;
+  border-style: dotted;
+  border-color: #F97AB6;
+}
